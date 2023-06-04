@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+  </header>
+  <nav>
+    <center>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="skills.html">Habilidades</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li> 
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </center>
+  </nav>
+  <section>
+    <h2>Contacto</h2>
+    <p>Puedes contactarme por correo electrónico en martinluna.rg@gmail.com o a través de mis redes sociales.</p>
+    <h3>Redes Sociales</h3>
+    <ul class="social-media">
+      <li><a href="https://instagram.com/martin_lr07?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><img src="assets\img\Icono 1.png" alt="Icono 1"></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100045023501469&mibextid=ZbWKwL" target="_blank"><img src="assets\img\Icono 2.png" alt="Icono 2"></a></li>
+      <li><a href="https://wa.me/4427905371" target="_blank"><img src="assets\img\Icono 3.png" alt="Icono 3"></a></li>
+    </ul>
+    <center><h3>Enviar correo</h3></center>
+    <form action="enviar_correo.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 Martin Luna Rogel. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
